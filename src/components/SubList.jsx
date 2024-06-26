@@ -8,7 +8,7 @@ function SubList(props) {
             </div>
             <div className='flex flex-col gap-2  py-2'>
                 <h1 className='text-softOrange text-4xl font-bold'>{props.id}</h1>
-                <h3 className='text-lg text-veryDarkBlue'>{props.subheading}</h3>
+                <h3 className='text-lg text-veryDarkBlue hover:text-softOrange'>{props.subheading}</h3>
                 <p className='text-sm text-darkGrayishBlue'>{props.para}</p>
             </div>
         </div>

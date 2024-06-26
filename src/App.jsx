@@ -12,7 +12,7 @@ function App() {
   
   return (
     <div className='relative bg-offWhite w-full h-[1000px] font-inter  '>
-      <Header />
+      <Header  />
       <Hero />
       <ListLast/>
 
